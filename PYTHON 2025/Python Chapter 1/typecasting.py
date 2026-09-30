@@ -1,0 +1,22 @@
+'''
+Type Casting = Converting one data type into another data type.
+
+int("12") = 12
+float("123") = 123.0
+str(123) = "123"
+int(12.3) = 12
+'''
+
+a = 2
+b = 3
+c = 4
+
+a_str = str(a)
+b_str = str(b)
+c_str = str(c)
+
+final_string=a_str + b_str + c_str
+final_int = int(final_string)
+
+print("Final Str",final_string, type(final_string))
+print("Final Int",final_int, type(final_int))
